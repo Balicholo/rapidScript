@@ -12,7 +12,7 @@ const NotFound = () => {
       </Link>
       <h1>404 - Page Not Found</h1>
       <p>The page you're looking for doesn't exist.</p>
-      <Link to="/" className="get-started-btn">Back to Home</Link>
+      <Link title="Back to Home" to="/" className="get-started-btn">Back to Home</Link>
       </div>
     </div>
   );

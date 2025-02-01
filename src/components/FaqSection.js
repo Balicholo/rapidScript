@@ -7,7 +7,7 @@ const FaqSection = () => {
       <h2>Frequently asked questions</h2>
       <p className="contact-email">
         If you can't find what you're looking for, email our support team at{" "}
-        <a href="mailto:support@rapidscript.cloud">support@rapidscript.cloud</a>
+        <a title="support@rapidscript.cloud" href="mailto:support@rapidscript.cloud">support@rapidscript.cloud</a>
       </p>
 
       <div className="faq-grid">

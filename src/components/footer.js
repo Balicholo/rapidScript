@@ -11,9 +11,9 @@ const Footer = () => {
           <img src={logo} alt="RapidScript Logo" className="logo" />
       </Link>
       <ul className="footer-links" >
-          <li><Link to="/privacy-policy">Privacy Policy</Link></li>
-          <li><Link to="/terms-of-service">Terms of Service</Link></li>
-          <li><Link to="/pricing">Pricing</Link></li>
+          <li><Link title="Privacy Policy" to="/privacy-policy">Privacy Policy</Link></li>
+          <li><Link title="Terms of Service" to="/terms-of-service">Terms of Service</Link></li>
+          <li><Link title="Pricing" to="/pricing">Pricing</Link></li>
       </ul>
       </div>
       <div className="line"></div>

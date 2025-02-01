@@ -14,16 +14,16 @@ const Navbar = () => {
           <img src={logo} alt="RapidScript Logo" className="logo" />
         </Link>
         <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
-          <li><Link to="/privacy-policy">Privacy Policy</Link></li>
-          <li><Link to="/terms-of-service">Terms of Service</Link></li>
-          <li><Link to="/pricing">Pricing</Link></li>
+          <li><Link title="Privacy Policy" to="/privacy-policy">Privacy Policy</Link></li>
+          <li><Link title="Terms of Service" to="/terms-of-service">Terms of Service</Link></li>
+          <li><Link title="Pricing" to="/pricing">Pricing</Link></li>
         </ul>
       </div>
 
       {/* Right Section: Sign In and CTA Button */}
       <div className="nav-right">
-        <Link to="/signin" className="sign-in">Sign In</Link>
-        <Link to="/get-started" className="get-started-btn">Get Started <span>Today</span></Link>
+        <Link title="Sign In" to="/signin" className="sign-in">Sign In</Link>
+        <Link title="Get Started" to="/get-started" className="get-started-btn">Get Started <span>Today</span></Link>
         {/* Hamburger Menu Button */}
         <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
           <div className={`bar ${menuOpen ? "open" : ""}`}></div>

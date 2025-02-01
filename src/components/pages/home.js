@@ -35,7 +35,7 @@ const Home = () => {
             </h1>
             <p className="changing-text">{textArray[currentText]}</p>
 
-            <Link to="/get-started" className="get-transcriptions-btn">
+            <Link title="Get 60 minutes of transcriptions for FREE" to="/get-started" className="get-transcriptions-btn">
               Get 60 minutes of transcriptions for FREE
             </Link>
           </div>
