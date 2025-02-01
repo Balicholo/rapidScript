@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-wrapper">
-      <Link to="/">
+      <Link title="RapidScript" to="/">
           <img src={logo} alt="RapidScript Logo" className="logo" />
       </Link>
       <ul className="footer-links" >
